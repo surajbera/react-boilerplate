@@ -8,8 +8,8 @@ export default function RootLayout() {
       <main className="flex-1 container mx-auto px-4 py-8">
         <Outlet />
       </main>
-      <footer className="bg-background border-t py-4">
-        <div className="flex-1 container mx-auto px-4 py-8">
+      <footer className="bg-background border-t">
+        <div className="flex-1 container mx-auto px-4 py-6 text-center text-sm">
           © {new Date().getFullYear()} React Boilerplate.
         </div>
       </footer>
