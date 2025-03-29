@@ -5,7 +5,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export function SiteHeader() {
   return (
     <header className="bg-background border-b">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto p-4 flex items-center justify-between">
         <h1 className="text-xl font-bold">My App</h1>
         <div className="flex items-center gap-4">
           <nav className="flex gap-4">
